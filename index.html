@@ -1,0 +1,52 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zombies Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styling.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+    <div id="container" class="bg-slate-800">
+        <div id="score">
+            Score: <span id="scorevalue">0</span>
+        </div>
+        <div id="trialsLeft">
+        </div>
+        <div id="correct">
+            Correct
+        </div>
+        <div id="wrong">
+            Try again
+        </div>
+        <div id="zombiesContainer">
+            <img id="zombie1" class="zombie" alt="">
+        </div>
+        <div id="instruction">
+            Catch Zombies
+        </div>
+        <div id="startreset">
+            Start Game
+        </div>
+        <div id="gameOver">
+            <audio id="slicesound">
+            <source src="audio/slicefruit.mp3">
+            </source>
+            <source src="audio/slicefruit.ogg">
+            </source>
+            </audio>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js">
+            </script>
+
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
